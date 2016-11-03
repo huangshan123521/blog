@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript 封装css</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">	
+		</div>
+		<div class="person">
+			<p>个人中心</p>
+			<ul>
+				<li>设置</li>
+				<li>换肤</li>
+				<li>帮助</li>
+				<li>退出</li>
+			</ul>
+		</div>
+		<div class="login">
+			登录
+		</div>
+	</nav>
+	<!-- 登录框 -->
+	<div class="mask"></div>
+	<div id="login">
+		<h2 >登录网站</h2>
+		<img src="img/error.gif" alt="error" class='close'>
+		<div class="user"> 账户: <input type="text" ></div>
+		<div class="pass">密码: <input type="password"></div>
+		<div class="button"></div>
+		<div class="other">
+			<span><a href="#">注册新用户 | </a></span><span><a href="#">忘记密码？</a></span>
+		</div>
+	</div>
+<script src="index.js"></script>
+<script src="../tool.js"></script>
+<script src="../base.js"></script>
+<script src="../base_drag.js"></script>
+
+</body>
+</html>
